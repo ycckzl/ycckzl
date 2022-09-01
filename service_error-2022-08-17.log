@@ -1,0 +1,104 @@
+2022-08-17 15:36:20,908 [ERROR] [http-nio-8443-exec-10] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 15:37:43,003 [ERROR] [http-nio-8443-exec-4] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 15:38:25,238 [ERROR] [http-nio-8443-exec-8] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 15:38:28,973 [ERROR] [http-nio-8443-exec-4] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 17:13:41,823 [ERROR] [http-nio-8443-exec-8] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 17:30:21,792 [ERROR] [http-nio-8443-exec-2] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 17:30:25,872 [ERROR] [http-nio-8443-exec-1] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 17:30:49,360 [ERROR] [http-nio-8443-exec-8] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 17:30:52,122 [ERROR] [http-nio-8443-exec-1] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 17:30:53,871 [ERROR] [http-nio-8443-exec-6] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 17:30:56,947 [ERROR] [http-nio-8443-exec-2] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 19:16:53,078 [ERROR] [http-nio-8443-exec-4] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 19:16:56,865 [ERROR] [http-nio-8443-exec-5] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 19:16:58,806 [ERROR] [http-nio-8443-exec-1] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 19:24:06,688 [ERROR] [http-nio-8443-exec-8] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 19:24:09,006 [ERROR] [http-nio-8443-exec-1] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 19:35:11,268 [ERROR] [http-nio-8443-exec-2] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 19:35:24,162 [ERROR] [http-nio-8443-exec-10] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 20:28:13,402 [ERROR] [http-nio-8443-exec-9] com.cn.util.Command.getRunResult(Command.java:99) commands:/var/lib/tomcat7/webapps/operationService/WEB-INF/classes/command/execProcess.sh /var/lib/tomcat7/webapps/operationService/WEB-INF/classes/licCommand/LicenseBuilder -LIC /var/lib/tomcat7/sysauth/lic/license.lic -REQ /var/lib/tomcat7/sysauth/lic/request_62bbd0afd8ea497ca4fc44beaebc4d06.lic -OUT /var/lib/tomcat7/sysauth/lic/response_8211b8ff874f45ada48bedc93d20a61e.lic
+2022-08-17 20:28:13,481 [ERROR] [http-nio-8443-exec-9] com.cn.util.Command.getRunResult(Command.java:107) log4cplus:ERROR Unable to open file: /cirrus_soft/data/cache_license/licBuilder_Error.log
+2022-08-17 20:28:13,482 [ERROR] [http-nio-8443-exec-9] com.cn.util.Command.getRunResult(Command.java:107) log4cplus:ERROR Unable to open file: /cirrus_soft/data/cache_license/licBuilder_All.log
+2022-08-17 20:28:13,507 [ERROR] [http-nio-8443-exec-9] com.cn.util.Command.getRunResult(Command.java:107) License file: [/var/lib/tomcat7/sysauth/lic/license.lic]
+2022-08-17 20:28:13,507 [ERROR] [http-nio-8443-exec-9] com.cn.util.Command.getRunResult(Command.java:107) Build license success!
+2022-08-17 20:28:14,447 [ERROR] [http-nio-8443-exec-5] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 20:28:19,939 [ERROR] [http-nio-8443-exec-5] com.cn.util.ClientDownload.copyWrite(ClientDownload.java:198) /var/lib/tomcat7/sysauth/WEB-INF/whitelist.txt, not exists
+2022-08-17 20:28:39,027 [ERROR] [http-nio-8443-exec-1] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 20:50:30,850 [ERROR] [http-nio-8443-exec-1] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 20:50:30,911 [ERROR] [http-nio-8443-exec-3] com.cn.service.tool.impl.SameFingerprintExportImpl.execute(SameFingerprintExportImpl.java:86) 版本号已经是最新
+2022-08-17 20:50:32,377 [ERROR] [http-nio-8443-exec-6] com.cn.service.tool.impl.TagServiceImpl.execute(TagServiceImpl.java:41) 事件标签历史版本记录为空
+2022-08-17 20:50:32,419 [ERROR] [http-nio-8443-exec-8] com.cn.service.tool.impl.SameFingerprintExportImpl.execute(SameFingerprintExportImpl.java:86) 版本号已经是最新
+2022-08-17 20:55:30,971 [ERROR] [http-nio-8443-exec-9] com.cn.service.tool.impl.ScanningTaskServiceImpl.reportUpload(ScanningTaskServiceImpl.java:133) --报告上传-------
+2022-08-17 20:55:30,992 [ERROR] [http-nio-8443-exec-9] com.cn.service.tool.impl.ScanningTaskServiceImpl.afterExec(ScanningTaskServiceImpl.java:279) 不为完成或终止的数量count: 0
+2022-08-17 20:55:30,996 [ERROR] [http-nio-8443-exec-9] com.cn.service.tool.impl.ScanningTaskServiceImpl.afterExec(ScanningTaskServiceImpl.java:318) 上传报告后，没有接收人的地址，邮件不发送 ！！
+2022-08-17 21:01:48,505 [ERROR] [localhost-startStop-2] com.alibaba.druid.stat.DruidDataSourceStatManager.removeDataSource(DruidDataSourceStatManager.java:211) unregister mbean error
+javax.management.InstanceNotFoundException: com.alibaba.druid:type=DruidDataSourceStat
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1095) ~[?:1.8.0_281]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.exclusiveUnregisterMBean(DefaultMBeanServerInterceptor.java:427) ~[?:1.8.0_281]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.unregisterMBean(DefaultMBeanServerInterceptor.java:415) ~[?:1.8.0_281]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.unregisterMBean(JmxMBeanServer.java:546) ~[?:1.8.0_281]
+	at com.alibaba.druid.stat.DruidDataSourceStatManager.removeDataSource(DruidDataSourceStatManager.java:209) [druid-1.2.8.jar:1.2.8]
+	at com.alibaba.druid.pool.DruidDataSource$2.run(DruidDataSource.java:2172) [druid-1.2.8.jar:1.2.8]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_281]
+	at com.alibaba.druid.pool.DruidDataSource.unregisterMbean(DruidDataSource.java:2168) [druid-1.2.8.jar:1.2.8]
+	at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2124) [druid-1.2.8.jar:1.2.8]
+	at sun.reflect.GeneratedMethodAccessor3755.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:517) [spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:112) [spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5174) [catalina.jar:7.0.109]
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5865) [catalina.jar:7.0.109]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) [catalina.jar:7.0.109]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705) [catalina.jar:7.0.109]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694) [catalina.jar:7.0.109]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+2022-08-17 21:01:48,514 [ERROR] [localhost-startStop-2] com.alibaba.druid.stat.DruidStatService.unregisterMBean(DruidStatService.java:377) unregister mbean error
+javax.management.InstanceNotFoundException: com.alibaba.druid:type=DruidStatService
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1095) ~[?:1.8.0_281]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.exclusiveUnregisterMBean(DefaultMBeanServerInterceptor.java:427) ~[?:1.8.0_281]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.unregisterMBean(DefaultMBeanServerInterceptor.java:415) ~[?:1.8.0_281]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.unregisterMBean(JmxMBeanServer.java:546) ~[?:1.8.0_281]
+	at com.alibaba.druid.stat.DruidStatService.unregisterMBean(DruidStatService.java:375) [druid-1.2.8.jar:1.2.8]
+	at com.alibaba.druid.stat.DruidDataSourceStatManager.removeDataSource(DruidDataSourceStatManager.java:214) [druid-1.2.8.jar:1.2.8]
+	at com.alibaba.druid.pool.DruidDataSource$2.run(DruidDataSource.java:2172) [druid-1.2.8.jar:1.2.8]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_281]
+	at com.alibaba.druid.pool.DruidDataSource.unregisterMbean(DruidDataSource.java:2168) [druid-1.2.8.jar:1.2.8]
+	at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2124) [druid-1.2.8.jar:1.2.8]
+	at sun.reflect.GeneratedMethodAccessor3755.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1030) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:517) [spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:112) [spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5174) [catalina.jar:7.0.109]
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5865) [catalina.jar:7.0.109]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) [catalina.jar:7.0.109]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1705) [catalina.jar:7.0.109]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1694) [catalina.jar:7.0.109]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
