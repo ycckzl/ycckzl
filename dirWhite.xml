@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<set> 
+  <!--放在服务器目录中：/var/lib/tomcat7/sysauth/WEB-INF-->  
+  <!--默认放过目录：C:\Program Files|C:\Program Files (x86)|C:\Windows|C:\Users\admin\AppData\Roaming|C:\Users\admin\AppData\Local|C:\ProgramData|C:\Users\admin\Documents\Tencent Files| -->  
+  <!--目录白名单   @USER：代表用户目录(C:\Users\admin)|@ALLUSER:代表全部用户目录（C:\Users\All Users）|@APPDATA：数据目录（C:\ProgramData||支持通配符，*？-->  
+  <whiteDir> 
+    <value>*\AppData\LocalLow\SogouPy\*</value>
+    <value>*\citicpru\Data\*</value>
+    <value>*\citicpru\Data\workspace2\*</value>
+    <value>*\citicpru\Data\workspace\*</value>
+    <value>*\Lotus\Notes\*</value>
+    <value>*\SogouInput\*</value>
+    <value>@USER\AppData\Roaming\*</value>
+    <value>C:\Program Files (x86)\Symantec\Symantec Endpoint Protection\*</value>
+    <value>*\qqpinyin\*</value>
+    <value>*\AppData\LocalLow\SogouPY.users\*</value>
+    <value>*\SogouWB\*</value>
+    <value>*\AppData\LocalLow\SogouWB.users\*</value>
+    <value>*\kinggsoft\kduu_ba\sp7\*</value>
+    <value>*\My Knowledge\Data\*</value>
+    <value>*\ksoft\kingsoft antivirus\*</value>
+  </whiteDir>  
+  <!--目录黑名单，优先白名单   @USER：代表用户目录(C:\Users\admin)|@ALLUSER:代表全部用户目录（C:\Users\All Users）|@APPDATA：数据目录（C:\ProgramData||支持通配符，*？-->
+  <blackDir> 
+    <value>@USER\AppData\Roaming\Foxmail*</value> 
+  </blackDir>  
+  <!--进程白名单-->  
+  <whiteExe> 
+    <value explain="360程序">360ai.exe</value>
+    <value explain="360保镖">360baobiao.exe</value>
+    <value explain="360浏览器安全防护中心">360bsc.exe</value>
+    <value explain="360下载整理盒">360DownloadFileMgr.exe</value>
+    <value explain="360">360ExpertMonitor.exe</value>
+    <value explain="360杀毒 文件堡垒">360FileGuard.exe</value>
+    <value explain="360">360leakfixer.exe</value>
+    <value explain="360网购先赔">360PayInsure.exe</value>
+    <value explain="360杀毒 上网加速">360QMachine.exe</value>
+    <value explain="360安全卫士 安全防护中心模块">360realpro.exe</value>
+    <value explain="360安全卫士 隔离区模块">360Restore.exe</value>
+    <value explain="360程序">360rp.exe</value>
+    <value explain="360杀毒 服务程序">360rps.exe</value>
+    <value explain="360">360Safe.exe</value>
+    <value explain="360安全卫士 安全防护中心模块">360sclog.exe</value>
+    <value explain="360安全卫士 安全防护中心模块">360sctblist.exe</value>
+    <value explain="360杀毒程序">360sd.exe</value>
+    <value explain="360杀毒 启动程序">360sdrun.exe</value>
+    <value explain="360杀毒 Metro 通知">360sdToasts.exe</value>
+    <value explain="360设置中心">360settingcenter.exe</value>
+    <value explain="360杀毒 换肤中心">360SkinMgr.exe</value>
+    <value explain="360应用程序">360speedld.exe</value>
+    <value explain="360安全卫士 木马防火墙">360SPTool.exe</value>
+    <value explain="360安全卫士 木马防火墙模块">360Toasts.exe</value>
+    <value explain="360托盘程序">360Tray.exe</value>
+    <value explain="360安全卫士 木马防火墙模块">360UDiskGuard.exe</value>
+    <value explain="360安全卫士 网盾">360WDMain.exe</value>
+    <value explain="360安全卫士 安全防护中心模块">360xpfix.exe</value>
+    <value explain="语音文字翻译">audioconver.exe</value>
+    <value explain="百度安全卫士">BaiduAn.exe</value>
+    <value explain="百度卫士服务程序">BaiduAnSvc.exe</value>
+    <value explain="百度卫士软件管理辅助程序">BaiduAnSWPlugin.exe</value>
+    <value explain="百度卫士托盘程序">BaiduAnTray.exe</value>
+    <value explain="百度升级程序">BaiduAnUpdate.exe</value>
+    <value explain="百度安全程序">BaiduHips.exe</value>
+    <value explain="百度输入法">baidupinyin.exe</value>
+    <value explain="百度卫士文件助手">BDAFileHelper.exe</value>
+    <value explain="百度卫士漏洞补丁检测模块">BDALeakfixer.exe</value>
+    <value explain="百度卫士 软件管理">BDASoftMgr.exe</value>
+    <value explain="百度卫士软件管理辅助程序">BDASWAcc.exe</value>
+    <value explain="百度卫士软件管理桌面引导程序">BDASWDeskGuide.exe</value>
+    <value explain="必应词典">bingdict.exe</value>
+    <value explain="必应输入法">BingIMEPLatform.exe</value>
+    <value explain="趋势杀毒进程">CNTAoSMgr.exe</value>
+    <value explain="360杀毒 辅助程序">dep360.exe</value>
+    <value explain="腾讯QQ">FlashPlayer.exe</value>
+    <value explain="360杀毒 优化加速插件">GetSvcName.exe</value>
+    <value explain="360杀毒 优化加速插件">GetSvcName64.exe</value>
+    <value explain="谷歌输入法">GooglePinyinDaemon.exe</value>
+    <value explain="KuGou">IEBox.exe</value>
+    <value explain="搜狗输入法相关进程">ImeUtil.exe</value>
+    <value explain="金山卫士垃圾清理程序">kcleaner.exe</value>
+    <value explain="KuGou Daemon">KGDaemon.exe</value>
+    <value explain="金山新毒霸在线升级程序">kislive.exe</value>
+    <value explain="Kingsoft KIS Main">kismain.exe</value>
+    <value explain="金山卫士程序">kphonetray.exe</value>
+    <value explain="金山新毒霸程序">kprcycleaner.exe</value>
+    <value explain="Kingsoft SoftMgr KRcmdSoft">krcmdsoft.exe</value>
+    <value explain="Kingsoft AntiVirus Recycle">krecycle.exe</value>
+    <value explain="Kingsoft Scan Process">kscan.exe</value>
+    <value explain="金山快速搜索程序">ksearch.exe</value>
+    <value explain="金山软件管家程序">ksoftmgr.exe</value>
+    <value explain="金山电脑医生程序">ksysdoct.exe</value>
+    <value explain="KINGSOFT CLEAR PANEL CACHE UPDATOR EXE">ksysprescan.exe</value>
+    <value explain="金山系统盘减肥程序">ksysslim.exe</value>
+    <value explain="KuGou">KuGou.exe</value>
+    <value explain="金山软件">kvipwiz.exe</value>
+    <value explain="金山新毒霸系统防御模块">kxescore.exe</value>
+    <value explain="金山毒霸托盘程序">kxetray.exe</value>
+    <value explain="金山游戏盒子">kybox.exe</value>
+    <value explain="趋势杀毒">NTRtScan.exe</value>
+    <value explain="趋势防毒墙网络版监控进程">PccNTMon.exe</value>
+    <value explain="搜狗拼音程序">PinyinUp.exe</value>
+    <value explain="360杀毒 弹窗拦截器">PopWndLog.exe</value>
+    <value explain="360杀毒 弹窗拦截器">PopWndTracker.exe</value>
+    <value explain="金山词霸">PowerWord.exe</value>
+    <value explain="360杀毒 进程追踪器">ProcTree.exe</value>
+    <value explain="pycharm ide">pycharm64.exe</value>
+    <value explain="腾讯QQ">QPerfHelper.exe</value>
+    <value explain="腾讯QQ">QQApp.exe</value>
+    <value explain="腾讯QQ辅助进程">QQExternal.exe</value>
+    <value explain="QQ安全防护进程">QQProtect.exe</value>
+    <value explain="QQ输入法">QQPYUserCenter.exe</value>
+    <value explain="QQ安全组件">QQSafeUD.exe</value>
+    <value explain="QQMusic">QzoneMusic.exe</value>
+    <value explain="360杀毒 搬家程序">Relocate.exe</value>
+    <value explain="RunGame 应用程序">RunGame.exe</value>
+    <value explain="SETUP">setup.exe</value>
+    <value explain="搜狗拼音程序">SGTool.exe</value>
+    <value explain="">software_reporter_tool.exe</value>
+    <value explain="">sogoucloud.exe</value>
+    <value explain="360杀毒 扫描程序">SRAgent.exe</value>
+    <value explain="腾讯QQ">StorageTool.exe</value>
+    <value explain="SVN">SubWCRev.exe</value>
+    <value explain="SVN">SubWCRevCOM.exe</value>
+    <value explain="腾讯高速下载引擎">Tencentdl.exe</value>
+    <value explain="腾讯QQ">Timwp.exe</value>
+    <value explain="金山手机助手-基础模块">Tkphonewiz.exe</value>
+    <value explain="趋势杀毒">TmListen.exe</value>
+    <value explain="SVN">TortoiseBlame.exe</value>
+    <value explain="SVN">TortoiseIDiff.exe</value>
+    <value explain="SVN">TortoiseMerge.exe</value>
+    <value explain="SVN">TortoisePlink.exe</value>
+    <value explain="SVN">TortoiseUDiff.exe</value>
+	<value explain="git">git.exe</value>
+    <value explain="虚拟机工具">vmtoolsd.exe</value>
+    <value explain="VMware虚拟机程序">VMwareUser.exe</value>
+    <value explain="360安全卫士 网盾">WDPayPro.exe</value>
+    <value explain="360杀毒 扩展扫描插件">Win32FuncLoader.exe</value>
+    <value explain="360杀毒 安全中心接口">WscControl.exe</value>
+    <value explain="360安全卫士 安全中心接口">WscReg.exe</value>
+    <value explain="Windows 备份助手">xpbackup.exe</value>
+    <value explain="逍遥笔输入法">XYBSky.exe</value>
+    <value explain="有道词典">YoudaoDict.exe</value>
+  </whiteExe>  
+  <!--HOOK白名单 说明：h1：剪贴板 h2：拖椎 h3：文件 h4：拷贝文件 h5打印 h7网络 h8拷屏 h9进程  12网络进程 13全部放开 15有网络但是文件打开的进程-->  
+  <hook> 
+    <h1>svchost.exe</h1>  
+    <h2></h2>  
+    <h3>javaw.exe|myeclipse.exe|eclipse.exe|360zip.exe|cmd.exe|dpdecoder.exe|compil32.exe</h3>  
+    <h4></h4>  
+    <h5></h5>  
+    <h6></h6>  
+    <h7></h7>  
+    <h8>todesk_session.exe</h8>  
+    <h9></h9>  
+    <h10></h10>  
+    <h11></h11>  
+    <h12>ecloud.exe|anydesk.exe|wxworkweb.exe|语雀.exe|115.exe|evernote.exe|wiz.exe|youdaonote.exe|iclouddrive.exe|weiyunapp.exe|wiznote.exe|tortoisegitproc.exe|git-gui.exe|小米云服务.exe|有道云笔记.exe|aDrive.exe|QuarkCloudDrive.exe|ToDesk.exe|ToDesk_Service.exe|filezilla.exe|msedgewebview2.exe|ucbrowser.exe|360chromex.exe|liebao.exe|2345Explorer.exe|weiyunapp.exe|mCloud.exe|nutstoreclient.exe|SunloginClient.exe|teams.exe|adrive.exe|postman.exe|chrome.exe|SogouExplorer.exe|msedge.exe|vxcopy.exe|wemeetapp.exe|tangclient.exe|Zoom.exe|skype.exe|360chromex.exe|wpscloudsvr.exe|fangcloud.exe</h12>  
+    <h13>sihost.exe|cleanmgr.exe|dsmain.exe|softupnotify.exe|wdsafedown.exe|kxecenter.exe|kscrcap.exe|kwallpaperex.exe|qqwbimebroker.exe|sogou_pinyin_115t1.exe|sogoucommgr.exe|qqpymergedict.exe|qqpyconfig.exe|2345pinyintool.exe|2345pinyinminipage.exe|2345pinyinassistant.exe|helper_2345pinyin.exe|wubiup.exe|sogouwbimebroker.exe|sogouexe.exe|qqpcexternal.exe|qqmusic.exe</h13>  
+    <h14></h14>  
+    <h15>idea64.exe</h15> 
+  </hook>  
+  <!--乱码标志上报与否 0：不上报 1：上报-->  
+  <EncodeUnknownUp>1</EncodeUnknownUp>  
+  <!--扫描模块配置: 文件大小， 文件修改时间， 文件后缀名， 文件创建时间属性进行配置
+scanConfigWhiteList 中配置为白名单配置（即需要按照配置条件跳过的条件）
+scanConfigBlackList 中为黑名单配置条件（即需要扫描的条件）
+如果黑名单和白名单中同时配置了同一类型的条件，则以黑名单条件优先，白名单中同类型的条件将不生效
+-->  
+  <scanmodule>{ "scanConfigWhiteList": [ { "conditionType": "fileSize", "maxFileSize": -1, "minFileSize": 300, "fileSizeUnit": "MB" } ] }</scanmodule>  
+  <!--心跳周期秒-->  
+  <HeartBeat>60</HeartBeat>
+  <!--数据发现数据上传周期（秒）-->  
+  <DataWatchUpdatePeriod>900</DataWatchUpdatePeriod>    
+  <!--启用繁简转换-->  
+  <isTccConvertSupported>0</isTccConvertSupported>  
+  <!--ocrMinFileSize 整型（单位KB）；配置支持扫描的图片最小限制，即小于这个配置的图片不扫-->  
+  <ocrMinFileSize>10</ocrMinFileSize>  
+  <!--不打水印打印机的列表,多个用|隔开-->  
+  <PrintNoWaterinfo></PrintNoWaterinfo>  
+  <!--一些挂不上钩子的进程，由驱动监控,win32:32位系统，win64:64位系统，im,IM进程，net:网络外发进程，fileopen:文件操作进程，每个进程名，由分隔符|分隔-->  
+  <!--ocrType  类型,用不同的OCR模块 现在默认是：cirrusgate_google，还有：cirrusgate-->  
+  <ocrType>cirrusgate_google</ocrType>
+  <!--outlook插件，1启用、0禁用-->
+  <OutlookAddin>0</OutlookAddin>
+  <!--启用gitusn监控，默认为1-->
+  <openUsn>1</openUsn>
+  <!--1为优先上传新的附件，0为优先上传旧的附件-->
+  <firstUpNewFile>1</firstUpNewFile> 
+  <DriverProcess> 
+    <win32> 
+      <im>qq.exe</im>  
+      <net>microsoftedgecp.exe|runtimebroker.exe|git.exe</net>  
+      <fileopen></fileopen> 
+    </win32>  
+    <win64> 
+      <im></im>  
+      <net>microsoftedgecp.exe|runtimebroker.exe|git.exe</net>  
+      <fileopen></fileopen> 
+    </win64> 
+  </DriverProcess>  
+  <!--不安全网站，valuedim,是模糊查找，只要域名包含，就命中，每个网站，由分隔符|分隔-->  
+  <unSafeWeb> 
+    <value explain="">www.yesf.com.cn|www.0zaw.tw|y1y1du.tw|wap.b0a2de18.top|m68631.cn|www.badutb4n2.top|www.45605.cn|m35958.cn|m69879.cn|28683.tw|zggqw.org.cn|tbnoumr.com|www.230333.com|ssc1gs.cn|www.ssc262.cn|aizoushitudingdan.cn|www.zgzjw.com|7f0akxc.spk1x8.cn|www.m5831m.cn|m.n2tt9qy.tw|www.s9ot.tw|www.anxinpmp.com|nm0l67y.tw|fixsitespeed.com|mandalilla.com|www.kelysp.com|www.chinazjw.com|m9356y.cn|www.m7365f.cn|www.ld8j.tw|hutixie.com|www.m1173.cn|m.nq8zz1y.tw|wap.32941.tw|www.m68661.cn|zgzjw.com|nufszgi.cn|www.ml2010.cn|www.nhckf.tw|xtnbwja.cn|www.9fss.net|m.n2oa68y.tw|www.v66955.com|0wtu.hjtthb.cn|www.hljshky.org.cn|www.b25.info|flcvud6.ssc631.cn|wap.lhzsta8k.cn|lygoppo.com|868444.online|m.b0a1en.top|m.32985.tw|m.nvgqpcy.tw|www.ff1997.com|wap.wdjajja.cn|www.n17a6zy.tw|www.m68711.cn|wap.jacaowc.cn|wap.b0a0wh.top|3rel.tw|30007.tw|www.30390.tw|www.sjhyny.com</value>  
+    <value explain="">750uc.908pkmu.cn|chinazjw.com|www.scphis.com|www.gp8678.com|www.faafzud.cn|cp6.ireddv.cn|bg0050.trade|31971.tw|m.nomk3dy.tw|m.nf52coy.tw|www.h5ja.tw|www.ah3q.tw|m.sx7l53ro.top|44xzxz.com|vip.kx10.com|www.ni15hhy.tw|www.w88566.com|m.nn2xj9y.tw|www.dvnbcs.cn|www.m1957x.cn|www.ikzglyb.cn|www.2fed.tw|pt879.com|www.qcxy.hb.cn|www.n5b49zy.tw|dan17.com|www.lu96.com|www.vmxshotz.com|www.gtlqedq.cn|jxgreat.com|wap.tgxdncg.cn|wap.jrjefi.cn|wap.zwedii.cn|47sasa.com|m.nykxily.tw|m.bla6b7.top|www.smilix.com|foqvpfoks.com|m.n98v1ty.tw|m.n7c7eqy.tw|wap.jxnowvy.cn|l2vmpiu.ssc2gg.cn|www.n0wjvuy.tw|wap.32183.tw|www.shwenzepower.com|llhihi.com|001999v.com|www.jobpeep.com|001999p.com|m5592w.cn|m.nhg5viy.tw</value>  
+    <value explain="">west-logistics.cn|m.00erx.cn|www.5t3jinshan.top|www.am2020.com|m.fbcduix.cn|www.oseygy.science|www.saposheng.cn|www.ying77777.com|aptfvjx.cn|www.zdqkip.top|www.zhaocai188.com|orxcqop.cn|m.nxgrr8y.tw|qqpvcca.cn|jmrpn.cn|tasrmurc.ml|m2697t.cn|www.suixinbank.com|www.trfkc.com|www.nmmusa.com|www.qwwra4.com|m.hsloq1-43.cn|www.popm9.tw|casabasuite.com|wgrdbzx.cn|wap.ssc0re.cn|addrzip.com|wap.hl3x2l04oi.club|www.643168a.com|nr6q0ay.tw|czey120.com|www.hpini.com|brh8l71.00dbs.cn|kufdbmk.cn|www.tnfkkxw.cn|m68712.cn|www.00dox.cn|vca6rot.ssc619.cn|www.ho0v2l41oi.club|29506.tw|m.00ecr.cn|www.500355.cn|m.kjnrkim.cn|www.nyebwbd.cn|nnmjjmnbhklb.co|wap.1vj1tf3n.tw|www.m35865.cn|www.kzgsdrq.cn|www.gzpkpm.com|news.spk5r2.cn|0obp.4star.ssc236.cn|www.dy3311.com|www.luyou4.com|ianshoujidoudizhu.cn</value>  
+    <value explain="">tvzjf.sscadm.cn|dy535.com|www.z1z1z1.com|www.cisku.com|xiayowdd.cn|www.vwmovie.com|fortune9z.com|pclkjai.cn|www.dalucro.com|m.nconyyy.tw|jizz5.com|www.dadgeer.com|vaafa.cn|www.ysden.net|dadstays.com|m.bhlc7a18.top|lgahk.com|5d676t.00cph.cn|www.636929ee.com|28880hg.com|wap.qcbreye.cn|m.nne37py.tw|wap.fvihidn.cn|www.wshfa.cn|gjludeng.com|ganeng.blgjx.cn|www.p90xtc.com|www.viewprip.com|www.duck5.com|www.piefor5.com|m.lhckj106.cn|wap.ssc18m.cn|wap.ssc17x.cn|www.nahuow.com|www.teenudesign.com|him35.com|naqurve.com|gfgf360.com|www.emp0.tw|www.fartizm.com|rarachi.com|lifa118.com|k35.hrbhchb.com|3728s.com|nalhotelshenzhen.com|www.m1735k.cn|georgeeknox.com|www.elixirrock.net|dgdexiang.com|www.tvtravelshows.com|www.xtzmdfh.cn|m.x81268hw.tw|www.bm5794.com|wap.v5zlvfye.tw|www.lzlm123.com|www.kelinnier.com|wap.2wlg3ook.tw</value>  
+    <value explain="">wap.e8uu14q4.tw|xiangguatv.com|m69152.cn|s7o2l62li.cn|m.32879.tw|wap.31690.tw|wap.bla0t8.top|www.jzgcctv.com|www.32600.tw|www.cly123.com|www.rasoolemami.com|wap.qcbpbwy.cn|m9325w.cn|www.yxdust.com|m1782f.cn|www.ydriqsx.cn|www.yua8ypg.cn|zzs2s.com|m.ssc37q.cn|www.n5ywvvy.tw|www.4solum.com|ymwemy.science|wap.bhla0j18.top|www.boksage.com|www.aeoqrpl.cn|31524.tw|29874.tw|27fafacom.8js5.cn|www.44qcqc.com|wap.29691.tw|www.1122uz.com|www.0086gx.com|e2rp1v7.spk1y9.cn|czzhanhui.com|www.98yh9.tw|www.auagw.com|cyfblok.cn|www.mdjsl.com.cn|www.hongchenwood.com|www.dgmao.com|m.kiiiquw.cn|hxw520.com|wap.jdlbwdc.cn|www.50950.com|www.tvro99.com|cnjlxjmy.com|cdsenbo.com|m.ssc92a.cn|m.sx7l54ro.top|30732.tw|a573.fuukpo.com|m.nrd36by.tw|20c4f5yvq.boentmh.cn|tn768v8.spk2p9.cn|m.30756.tw|lhcxsa5l.cn|m.31100.tw|m.31479.tw|www.p1nt.tw|www.gjsamdonh.com</value>  
+    <value explain="">wap.31778.tw|xw-kj.com|www.ncyhl.com|www.bcfki8.cn|www.xinghuitools.cn|ssc18f.cn|m.tuaufmf.tw|www.mmchelpdesk.com|www.akenmak.com|ncrcgg.com|m.chumknsd.tw|www.0033dy.com|www.fbgfinc.com|m.29089.tw|wap.30998.tw|bjwgamq.cn|www.nlwhsus.cn|www.rbmkitr.cn|2016qm.com|30803.tw|28728.tw|glzmnb.cn|m.nwh2gfy.tw|a4yuun.cn|www.30634.tw|wap.31863.tw|3344ja.com|www.323aaa.com|www.tjzdtmgs.com|3344iv.com|m.31718.tw|m.nj7f04y.tw|www.okruan.com|fcfxj4.cn|44pzpz.com|xd5xn9.cn|m.30029.tw|86ice342.tw|hso1kls.ssc09p.cn|32254.tw|www.kxlady.net|rnplvv.cn|wap.31966.tw|www.fajneprogramy.com|www.watmeto.com|xx817.com|www.qlzcp.com|wtgtjtq.com|nbwobz.cn|www.alqura.com|m.32952.tw|www.fitterbeing.com|gdcxzw.com|www.4whx.tw|m.ywckvtl.cn|m.dngsodx.cn|m5927d.cn|www.hl0v2l01oi.club|www.wxsdomy.cn|www.ranqiaowl.cn|wap.qdrctb.cn|m6772x.cn</value>  
+    <value explain="">www.m9625q.cn|www.2016ak.com|x112r3xt.nabjocoh.cn|b0a1pv18.top|randu.top|m.nkd301y.tw|wap.bhla6w18.top|lescianty.com|858385j.com|wap.29338.tw|m.00duw.cn|www.zhaimengya.com|www.conghanwangluo.com|frfttb.cn|www.phdpunx.com|www.938x.com|wap.axtjzdk.cn|wap.tnvxpsn.cn|m.28987.tw|www.hndnszlw.com|dy.wsicc.com|www.trylbd.com|www.sf2115.com|szwbhs.com|www.hzxfyy.com|m.29324.tw|www.dlxsd.cn|m.upwibe.top|www.licheng588.com|www.likuijun.com|www.xslbgjj.com|www.f4xk.tw|l31.5oq0qx.ssc2ta.cn|www.4zxf.tw|www.lnhvq.com|m.31501.tw|mkiljgr.cn|www.qaypfkb.cn|bmxbtrp.cn|28864.tw|31950.tw|www.mhh9.tw|31882.tw|www.m17353.cn|swydp.cn|www.887788bb.com|kaijiangshipinapk.cn|dtcdzh.com|lhzsta1n.cn|wap.ssc0pu.cn|zb283.com|www.zhyduql.cn|www.netsudo.com|www.m1528.cn|www.coalavb.cn|m2211m.cn|m.00epg.cn|itwse.com|www.qcczm.com|io4o.kzfhk.ffc184.cn|www.cn-hongli.com|www.nfca31y.tw|29262.tw|www.kingwaycorp.com</value>  
+    <value explain="">v.hnynmp.com|m.n7fd5py.tw|m.31943.tw|t83378.com|drwotyf.ssc378.cn|www.justlov.cn|www.hudiefans.com|77suncity.com|www.csgow.com|www.luyinpharma.net|www.jvlfln.tw|uvlnqr0.tw|www.assx8i0.tw|m.ssc0yt.cn|www.qo9q.tw|www.ncm8xky.tw|m.mba1.tw|m.millinks.com|zhihanq6.com|www.3evd.tw|472687.com|www.safeuweb.com|m.n1sf4qy.tw|wap.30009.tw|cnmodelplane.com|wap.ho2vsil40.club|www.szhkldz.cn|m33133.cn|3p1qxrk.ssc74i.cn|eglxh4h.tw|www.asherh.com|www.lju57t.tw|www.hakankimya.com|www.154007.com|www.sywxd.net|9trd627.ssc569.cn|m.b0a2qq18.top|wap.b0a1gm.top|www.31079.tw|m.30579.tw|lsqahfsk.site|34909.com|www.00edt.cn|bx8u0u.ssc656.cn|ngpk10gaoshoudufa.cn|www.023shc.com|m.b0a1lp.top|317d.8ri1m.sscalu.cn|wap.31830.tw|www.pt9k.tw|www.iewqrkl.cn|77970a.com|wap.ho0v2l58oi.club|www.anquluwo.com|b987.top|qdqaajq.hktimsisi.cn|www.8342222.com|shuangxingyujia.com|www.xlwle.com|www.www13948.cn|www.nutmegfab.com|hbbangna.com|www.45191.cn</value>  
+    <value explain="">m.32781.tw|www.saswl.com|www.beiekjz.cn|www.nljhsdy.cn|chan.yauldcolor.cn|221205a.com|wuwyoysk.cn|525088.cn|www.yzxye.com|ym777.cc|097y.hjttpm.cn|neovivi.com|www.dcxylt.com|www.uk7n.tw|jy5210010.com|www.xaziling.com|www.yamsey.tw|3uxpm8v.ssc69j.cn|www.dnk-ic.com|33016.tw|www.179688.com|f2thj8.cn|www.yxstus.com|www.haopengbattery.com|www.ssc653.cn|www.hbjlec.net|1705855.ffas681.com|www.kuecnyw.cn|www.hefeiwan.com|www.wlflsc.com|www.0sarcc.tw|www.hbhyao.com|www.jnshenying.com|xjdxgg.com|sxcyxzb.cn|njvtzv.cn|27735t.com|m.29870.tw|www.www6425.cn|www.cenozoicpay.com|28752.tw|1512210.f0401.com|www.j0ydoor.top|www.m69961.cn|www.m11573.cn|www.sscabt.cn|m9535x.cn|www.tdizmr.tw|www.cdlapply.com|31280.tw|31411.tw|linliue93.cn|www.hbguangxiang.com</value>  
+    <value explain="">www.dstsh.top|zggj3dsmzx.com|sjzcsfdj.com|www.lctshj.com|www.lhbd888.com|aecefa.cn|knwagji.cn|m.bla6v3.top|cxbdqz.cn|www.chunyuw.com|www.593644ff.com|www.xxktzj.com|0dbsnx.cn|tbhbxd.cn|wap.k24ds.cn|www.bjknk3.com|leopool.com|oq4nn4.cn|bplznn.cn|thczqih.com|1747201.xx802.com|www.991bdf.com|173.234.146.166|8iindgo.lhckj920.cn|www.wtsguojie.com|www.taxiuwang.com.cn|www.jctjz.tw|wap.32378.tw|u06-gov.cn|34221ccom.com|www.kunshanhukou.com|m5392y.cn|www.shifangke.com|m.n2juh3y.tw|www.dkrhy.com|www.m33819.cn|m27967.cn|www.lyp5.tw|www.333lt.cc|www.lpgjt.cn|m.31637.tw|spk0i8.cn|www.bpxvvoq.cn|binguanzs.com|hztffzjx.com|898xv.lu930rh.tw|www.ha1t0x.tw|muzhaokj.com|www.pj5778.com|m.sekyyid.cn|m.gfjezac.cn|m.rlcarn.cn|www.wanmill.com|www.878yu.com|www.xfjgzr.tw|wap.b0a2bz18.top|wap.diexlx.cn|wap.mdomscs.cn|wap.bmsagyk.cn|jinhangdawl.com|484868.com|www26748.cn|m.30198.tw</value>  
+    <value explain="">www.wzzyjkw.com|ltsdoor.com|mm515.com|wiusrcn.cn|www.nfrhjj.cn|qcby2cb.cn|lyer6.cn|m.nbzl4cy.tw|0l7pc.tw|www.dvdprr.cn|www.queit21g.com|www.32456.tw|www.xa3s.tw|www.00ech.cn|www.nm0c.tw|www.ydzs8.com|wap.ssc0ax.cn|www.fetfish.com|www.je23fv.tw|www.tztrvp.cn|www.1wjh83e.tw|www.pdhfpt.cn|kgp79.tw|wccoxt2.tw|bdnlpp.cn|541678.cn|jgznm.loan|ben2222.com|www.nb6a0ky.tw|www.kjvqa3r.tw|www.xsyw032.tw|www.bdu949948.top|eh5t1j.ffc061.cn|lhzsta3k.cn|m.nqseqcy.tw|m.qjbkq.tw|sdjtzg.com|gxx4xnl4.tw|hrsancai.com|www.67172.cn|www.rnfbln.cn|m.ssc0sp.cn|dpf4ehb.00cxg.cn|www.tllpjl.cn|www.fzzfpv.tw|www.zpvljv.cn|bdu668478.top|www.txlxjz.cn|yua8ypg.cn|v789og.cn|m.31494.tw|www.bjjdpz.cn|bdu110479.top|www.mumtrj.tw|www.dg-honghui.cn|hiyunlv.cn|www.cjuxkv.cn|www.661665.com|dspqsf.tw</value>  
+    <value explain="">tkcoo.com|cp2499.com|wxfenghui.com|6lky1ph.spk0b3.cn|m.bdu146805.top|www.fwjxqf.tw|4066.org.cn|www.faner.cc|www.zwjdzx.com|www.m1318.cn|www.kqzjgar.cn|www.agiplus-metz.com|www.d3ks.tw|pt1xpublic.cn|wap.ngixatp.cn|m.oypkgxn.cn|m.pduohxg.cn|m.vhwribu.cn|www.nbmengfeng.com|www.rzvlfv.cn|www.njntjf.cn|hbmanjikefrp.com|www.xprjpt.cn|www.31895.tw|wap.ptbukok.cn|wap.q7cvrjwh.tw|www.dfyingjia.com|www.china-bluetec.cn|hdbzfd.cn|www.pka0a0z.cn|tzfdlp.cn|29684.tw|e99w6z.tw|www.31110.tw|tuifeicn.com|sh-yuhong.com|hr4xyl27oi.site|robinolausson.com|fhvxjp.cn|lhzsta2s.cn|m.30420.tw|www.canthoso.com|zxdplt.cn|mhjafari.com|www.hytyqc.cn|www.wgmrw.cn|m.30051.tw|thrtrx.cn|n5r31xar.tw|4d5iz.tw|shnud.tw|ssc2pd.cn|m2932m.cn|www.592xx.com|900qa.com|m.sscnyxe.cn|m.b0a0yw.top|m.b0a1gk.top|www.33lhc.com|www.xbnhnp.cn|hzjhbdz.com</value>  
+    <value explain="">www.51xfztc.com|www.zgjyrz.com|www.m32859.cn|www.china-yate.com|www.xiglwhy.cn|m.nmhywty.tw|idashr.com|www.xinli29.com|m.ng72c4y.tw|m.aclceilc.tw|wap.0ew745ym.tw|94y409nk.aosxrbsa.cn|m.ndpr3ny.tw|m.n2i738y.tw|3g.51h6l76w.tw|wap.wdrokcw5.tw|m.n50gcyy.tw|sblvqpx.cn|m.n1yz94y.tw|www.runid.cn|www.00338.com|wxyoko.top|www.hpfphh.tw|i6wkn2j.lhzsta8k.cn|www.lhcxsa2l.cn|zilhsqy.cn|www.xyrj120.com|www.10jdao.com|bzdongchen.com|www.ssc36g.cn|cca7p.com|wap.bhla2z18.top|www.cssakent.com|w.sunflowerscrap.com|www.zrsth.com|goaa2a9.cn|x48.f0401.com|kbsglue.com|m.forzapg.com|www.tjhxfv.cn|hdjzq.com|kuochuo2357.cn|www.yifaxiun68.cn|zatdccom.ahrrpvr.cn|www.1haoedu.com|www.womenzz.com|a9268.com|wap.31730.tw</value>  
+    <value explain="">www.3858msc.com|m.29443.tw|www.foulds2000.com|www.ho0v2oil80.biz|www.pj3866.com|www.jnslwjj.com|www.m12991.cn|m11639.cn|www.m26898.cn|m.33260.tw|30048.tw|www.jphhf.tw|www.jjvtrp.tw|m.3h3.com|www.liuhe3h9.top|quduo8.net|cangevfei.cn|fwbxyd.tw|1m96co.cn|rqggzzx.com|cdslsb.com|www.hlbr.tv|dzkhjx.com|shbsyjy.com|4676.info|www.sscagn.cn|mcasye.tw|www.tjzcxy.cn|www.e360tg.com|jhtsbe.work|bang.com|www.tpdhvj.tw|www.vjbv.tw|10654.com|swow1118.com|wap.32108.tw|bxjrxx.cn|www.zzronghe.com|www.30424.tw|www.m2865m.cn|ibqijry.cn|fw2k.tw|uzs77.00agr.cn|www.7thbyte.com|23kl.cn|www.t4ybfo.tw|beijingpk10jiqiao.cn|www.26738.com|zang.lbqygw.cn|2s1gp.ssca5y.cn|bdu916610.top|www.i-nuz.com|www.gy6p94l.cn|wap.tyijmka.cn|www.m1625m.cn</value>  
+    <value explain="">m.32860.tw|m.pu1okvy6.tw|wap.1bnkvvud.tw|www.1srzkg.tw|m.31657.tw|m.yebvuwa.cn|aeswfa.cn|m7265y.cn|www.58196.com|ssc00a.cn|liujialing18.cn|yxz33.com|m.whattolove.com|www.228884.com|www.lhc999.com|www.234339.com|m5zgt3.cn|tlxvtl05803.cn|www.makaryn.top|www.wn6z6r.tw|www.nfjjnr.cn|www.gaoya599.com|0554jdzs.com|www.00emk.cn|744099.com|www.b0a1qq18.top|lvxiaohua.com|m.sl3x2l48oi.cn|shangfankj.com|0528unp.cn|wap.bla0r4.top|www.jcbrl.com|www.sddsls.com|www.able12z.biz|577999.com|www.fayilawyer.com|www.gongzuo163.com|www.weibing88888.com|oneplusit.com|csxljb.com|www.159444.com|www.m2389m.cn|www.xqxwck.com|3vwhd2ly.aosxrbsa.cn|m.pk1en2m.com.cn|www.pxlrwl.tw|www.m25318.cn|dzlhtt.cn|www.hvnzbf.cn|dhswl.com.cn|td.xuyaowlo.com|www.jzhtjd.cn|2222599.com|niedi.top|pa-mg.net|ptd8s.tw|727989x.com|www.c02c81.cn|www.618112266.top</value>  
+    <value explain="">www.sscaeo.cn|www.s9hl0a.tw|lrxzs.com|www.shengjirou.com|bdu975919.top|1725ax.com|www.zianoor.com|www.ppibao.com|yyfen.cn|zpjiubt.cn|m16795.cn|www.uoozvix.tw|m.bhlc2h18.top|m.dgroho.com|ctbox.cn|hg.822wanwan.com|m.cokwkjf.cn|m33752.cn|m.hsloq1182.cn|zalimkedi.com|www.dccacom.cn|wap.qdbmwnn.cn|m.fvqbotj.cn|m.n8gteey.tw|wap.31912.tw|dgbojin.com|www.kjyryrs.cn|wap.hl0v2l62oi.club|www.30381.tw|www.xnntln.cn|808yes.com|www.ocqcwq.cn|www.dxhbpig.com|farou.bzyphb.com.cn|rshuafq.cn|m.nw5zxwy.tw|docdrs.com|shspcn.com|www.vzvnhd.cn|www.rdtpu.com|ycuae.com|575755.com|diaosuzhongguo.cn|xiangbao78.com|www.yakekongjian.cn|www.xinjiangyinfeng.cn|uqmwbkt.work|yongyu8888.com</value>  
+    <value explain="">m.30909.tw|wap.31586.tw|www.duanaa.com|www.tlupaou.com|jkskjc.com|www.dayuanhonggan.com|zhuanyo.xyz|www.yrhed.com|www.abbieswine.com|wap.31567.tw|ahwww.icskys.com|3g.sl3x2l10oi.cn|www.mdtydq.com|www.qichew999.com|m.b0a0ek.top|www.srbmj.cn|3g.b0a1gr.top|www.npzfnz.cn|4h1azye.cn|www.32956.tw|r3ot8f6.ssc14l.cn|p062.com|www.nax4pny.tw|dft365.com|4g.ff0a7n.cn|no2bzyy.tw|lovebet66.cc|www-722700.com|www.qnucaez.cn|www.lhlt688.org|www.newfzl.com|www.zjhxxv.cn|myjing8.com|www.redbaloons.cn|www.3308q.com|www.369h.info|www.jscsq.com|www.goaa3a7.cn|76555000.com|www.644128.com|kdauoltt.tw|iyxjs.cn|www.1nno.tw|www.dahe17.com|ghmyr.cn|m.295310.com|dtcfzve.cn|ai.qingyingdance.com|www.lilyjita.com|www.peerless3d.com|zvrgvqc.cn|pabaf.com|111239.com|www.qirkxvx.cn|cclgufx.cn|www.zrh1ho1.tw|yfgavdl.cn</value>  
+    <value explain="">www.hfjijvn.cn|www.nubwbwe.cn|www.erzhanyou68.cn|www.a4hd.tw|mvarimz.cn|m.31338.tw|dsiwvb.site|gyaeqpu.cn|iamhkbe.cn|a80088.com|www.123b123.com|www.txqcq.com|www.vjlpzp.tw|m1128d.cn|kxsn6.com|www.5364dl.com|oyjvg.cn|ekt365.cn|www.og51851.com|wap.31815.tw|www.t2rd.tw|www.00dvf.cn|m.32088.tw|cn.manbet186.com|ty615.com|um33333.com|www.20188x.com|h.yasing01.com|www.erbimensajeros.com|www.kmh555.com|5210086.cc|938k.cc|dfh5789.com|zsy810.com|m.biandou.cc|www.ingridfrohlich.com|6f500.net|www.bomao168.com|x1.298139.com|www.leyo11.com|www.zhq07.cn|380111333.com|3cai58.com|www.axsjx.top|www.0065688.com</value>  
+    <value explain="">zs405.com|gs.m51133.com|wt8282.com|www.17x0048.com|1118ylg.com|da1998.com|sl229.com|www.jscp8.vip|www.850099.com:8888|www.dqesde.com|www.7007.so|917mj.cc|www.335333.cc|baifu71.com|www.777717.cc|www.hzyx168.com|347559.com|www.123cai8.com|www.1997xubet.com|yipincp.net|088822.com|sbf829.com|13.94.59.76|p28229.com|5674440.com|5577yc.com|www.wf2206.com|505567.com|888007.com|www.wx5544.com|www.dinghong6.com|www.001768.com|666231.com|laidelong.com|www.88050w9.com|www.jiuzhaigou3.com|www.jstgcl.com|www.98408d.com|99fff.cc|www.athalevo.com|1huanqiu.com|www.hztzsj.com|nm626.com|x1.gssafe.com|www.wuji3.com|www.1375.com|kl-c.bzjjzs.com|x1.0594ccm.com|www.tea88888.com|www.sl35.com|x2096.com|www.f6v8.com|sainplat.com|www.ladark.com|6769jz.com|www.meironghz.com</value>  
+    <value explain="">www.t5585.comgame|m.wccp18.com|jzcp11.com|lecaiqq.com|www.6766805.com:6766|youxin77.com|582977.com|www.c6cai1.com|cp12ll.com|www.rgcp10.com|www.ymhzw.com|www.wanyi111.com|www.v8cp0.com|www.0099uuu.com|am2077.com|23040.com|www.22296ag.com|h5.646wns.com|www.660km.com|1058899.com:9988|www.700000000.com|www.777277cc.com|tcw71.com|www.gsmxedu.cn|www.418691.com|lqdszx.com|www.025605.com:8899|gyhyzgyy.com|www.5966ooo.com|www.9928f.com|www.99n3.com|www.055fcw.cc|www.ths884.com|qwcp8888.com|www.hyxj5188.com|mycp955.com|cb7777.cc|f1234cp.com|agcpw2.com|sjcpw1.com|www.mtc038.com|hbs33.com|www.636216.com|www.07198.com|www.ylc005.com|www.993520.com|ct545.com|3877z.com|le888k.com|www-500843.com|www.ns2233.com|www.1794455.com|qjcp200.com|www.99006z.com:3369</value>  
+    <value explain="">www.4058b.com|df3303.com|www.hy9668.com|zh6619.com|www.9708a.com|65533vip.com|9977780.com|zzcq8.com|www.55rrh.com|c9-7.com|47.75.99.46:81|www.796522.com|www-62cp.com|01049t.com|www.tangr168.info|c300.co|www.sd8811.com|777jfcp.com</value>  
+    <valuedim explain="">porn|xxx|casino|gamble|adult|squirt|lesbian|boobs|tits|pussy|lust|nude|.xyz|.date|4chan.org|perfectgirls.net|sex|gay</valuedim> 
+  </unSafeWeb>  
+  <whiteExt> 
+    <value>cccccc</value>
+    <value>txt2</value>
+  </whiteExt> 
+  <screenCopyExe>
+	<value>dingtalksnippingtool.exe</value>
+	<value>qqbrowser.exe</value>
+	<value>wechat.exe</value>
+	<value>wxwork.exe</value>
+	<value>printscreen.exe</value>
+	<value>qq.exe</value>
+  </screenCopyExe>
+</set>
